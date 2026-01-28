@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Uncial+Antiqua&display=swap');
+
+/* new event */
+main{
+    min-height: 100vh;
+}
+
+.new-event-main{
+    background-color: var(--green);
+    min-height: 100vh;
+    color: white;
+}
+
+.new-event-heading{
+    font-family: 'Uncial Antiqua', serif;
+}
+
+.new-form-label {
+    font-family: 'Lato', sans-serif;
+    color: rgb(225, 225, 225);
+    font-weight: 500;
+}
+
+.btn-create-event{
+    background-color: #B22222;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 60px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* success page */
+.success {
+    font-family: 'Lato', sans-serif;
+    background-color: var(--green);
+    color: white;
+    padding-bottom: 0;
+}
+
+.success .container {
+    padding-top: 3rem;
+    padding-bottom: 0;
+}
+
+.success h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.success-img {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* buttons */
+.btn-view-events{
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 60px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.btn-view-events:hover{
+    background-color: rgb(191, 191, 191);
+}
+
+
+.btn-create-new{
+    background-color: #B22222;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 60px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.btn-create-new:hover{
+    background-color: #851919;
+}
+
+/* error text */
+.error-text {
+    color: #b22222;
+    font-size: 0.9rem;
+    margin-top: 6px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 6px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.error-text {
+    color: #b22222;
+    font-size: 0.9rem;
+    margin-top: 6px;
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 6px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: 600;
+}

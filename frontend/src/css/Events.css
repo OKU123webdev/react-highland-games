@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=uncial+antiqua&family=lato:wght@300;400;700&display=swap');
+
+/* page wrapper */
+.events-page {
+    background-color: #f2f2f2;
+    padding-bottom: 60px;
+}
+
+/* centered content container */
+.events-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* page heading */
+.events-heading {
+    font-family: 'uncial antiqua', cursive;
+    color: var(--green);
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* intro paragraph */
+.events-intro {
+    font-family: 'lato', sans-serif;
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+    max-width: 850px;
+    margin-bottom: 25px;
+}
+
+/* admin top button */
+.btn-admin-top {
+    background-color: #b22222;
+    color: white;
+    border: none;
+    padding: 10px 26px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-family: 'lato', sans-serif;
+    margin-bottom: 35px;
+}
+.btn-admin-top:hover {
+    background-color: #941c1c;
+}
+
+/* grid layout */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+/* event card */
+.event-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.08);
+    transition: box-shadow 0.2s ease;
+}
+.event-card:hover {
+    box-shadow: 0px 6px 14px rgba(0,0,0,0.14);
+}
+
+/* event image */
+.event-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+/* card contents */
+.event-content {
+    padding: 18px;
+}
+
+.event-content h4 {
+    margin: 0 0 4px 0;
+    font-family: 'lato', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.event-date, .event-location {
+    margin: 0;
+    font-family: 'lato', sans-serif;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+/* card buttons row */
+.card-buttons {
+    margin-top: 14px;
+    display: flex;
+    gap: 10px;
+}
+
+/* general button base */
+.btn-buy, .btn-part, .btn-admin {
+    padding: 7px 20px;
+    border-radius: 4px;
+    font-family: 'lato', sans-serif;
+    font-size: 0.95rem;
+    border: none;
+}
+
+/* buy tickets */
+.btn-buy {
+    background-color: var(--green);
+    color: white;
+}
+.btn-buy:hover {
+    background-color: #243c3c;
+}
+
+/* participate */
+.btn-part {
+    background-color: #b35422;
+    color: white;
+}
+.btn-part:hover {
+    background-color: #a34e20;
+}
+
+/* admin edit button */
+.btn-admin {
+    background-color: #b22222;
+    color: white;
+}
+.btn-admin:hover {
+    background-color: #941c1c;
+}
+
+/* responsive */
+@media (max-width: 992px) {
+    .events-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 650px) {
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+}

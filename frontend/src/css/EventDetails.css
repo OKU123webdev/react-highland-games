@@ -1,0 +1,44 @@
+main{
+    font-family: 'Lato', sans-serif;
+}
+.event-sch{
+    color: var(--green);
+}
+
+.event-date{
+    color: #707070;
+}
+
+/* accordion */
+.accordion-button {
+    background-color: var(--green); 
+    color: white !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--green);
+    color: white !important;
+}
+
+/* location */
+.googleMaps{
+    
+    color: #707070;
+}
+
+.location-hd{
+    color: var(--green);
+    font-family: 'Uncial Antiqua', serif;
+}
+
+/* tickets */
+.tickets-hd{
+    color: var(--green);
+    font-family: 'Uncial Antiqua', serif; 
+}
+
+.eventbrite{
+    background-color: #D9D9D9;
+    color: #707070;
+    height: 15rem;
+}
