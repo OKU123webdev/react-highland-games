@@ -6,14 +6,14 @@ This project recieved an A grade.
 Develop a website for Paisley Highland Games that provides contextual information about the proposed competitions and enables groups or individuals to apply to participate in events.
 
 ## Technology Stack
-Frontend: HTML, CSS, JavaScript
-Frameworks & Libraries: React, Bootstrap
-Backend: Node.js with Express
-Database: MongoDB Atlas
-Authentication: Auth0
-Collaboration tools: Git, GitHub, Docker
-Design tools: Figma
-Deployment: Render
+- Frontend: HTML, CSS, JavaScript
+- Frameworks & Libraries: React, Bootstrap
+- Backend: Node.js with Express
+- Database: MongoDB Atlas
+- Authentication: Auth0
+- Collaboration tools: Git, GitHub, Docker
+- Design tools: Figma
+- Deployment: Render
 
 
 ## Key Features
